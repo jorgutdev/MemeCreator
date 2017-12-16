@@ -55,3 +55,8 @@ buck-out/
 # Misc
 #
 .env
+yarn.lock
+package-lock.json
+.vscode/.react/debuggerWorker.js
+.vscode/.react/index.map
+.vscode/.react/index.bundle

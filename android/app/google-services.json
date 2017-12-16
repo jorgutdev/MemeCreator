@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "307097925284",
+    "firebase_url": "https://memecreator-3de01.firebaseio.com",
+    "project_id": "memecreator-3de01",
+    "storage_bucket": "memecreator-3de01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307097925284:android:00fa642dc832968b",
+        "android_client_info": {
+          "package_name": "com.memecreator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307097925284-n50ecveppt87qn4j82f901kls74vqkdi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDifyyuP-FU9QBc28k8GC7ZrgLYUEDLRs8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

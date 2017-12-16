@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:android">
+   </FileRef>
+   <FileRef
+      location = "group:App">
+   </FileRef>
+   <FileRef
+      location = "group:app.json">
+   </FileRef>
+   <FileRef
+      location = "group:ignite">
+   </FileRef>
+   <FileRef
+      location = "group:index.js">
+   </FileRef>
+   <FileRef
+      location = "group:ios">
+   </FileRef>
+   <FileRef
+      location = "group:node_modules">
+   </FileRef>
+   <FileRef
+      location = "group:package-lock.json">
+   </FileRef>
+   <FileRef
+      location = "group:package.json">
+   </FileRef>
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
+   <FileRef
+      location = "group:stepsToInstall">
+   </FileRef>
+   <FileRef
+      location = "group:storybook">
+   </FileRef>
+   <FileRef
+      location = "group:Tests">
+   </FileRef>
+   <FileRef
+      location = "group:yarn.lock">
+   </FileRef>
+</Workspace>

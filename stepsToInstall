@@ -1,0 +1,57 @@
+
+
+### react native video
+
+npm i -S react-native-video
+react-native link
+
+
+Add this to android/app/build.gradle
+  
+// Added in tutorial from rnfirebase.io 
+compile(project(':react-native-firebase')) {
+transitive = false
+}
+
+compile "com.google.android.gms:play-services-base:11.6.0"
+compile "com.google.firebase:firebase-core:11.6.0"
+compile "com.google.firebase:firebase-database:11.6.0"
+
+
+Add this to android/build.gradle
+
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.3'
+        classpath 'com.google.gms:google-services:3.1.1'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        mavenLocal()
+        jcenter()
+        maven {
+            // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
+            url "$rootDir/../node_modules/react-native/android"
+        }
+        maven {
+            url 'https://maven.google.com'
+        }
+    }
+}
+
+
+
+## Add this to settings.gradle
+
+include ':react-native-firebase'
+project(':react-native-firebase').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-firebase/android')
